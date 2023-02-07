@@ -1,9 +1,12 @@
 import express from 'express';
+import mongoose from 'mongoose';
 
 const app = express();
 
-app.use("/",  (req, res, next) => {
-    res.send("Hello, world");
-});
 
-app.listen (5000);
+mongoose .connect("mongodb+srv://koech:Koech123@cluster0.44cawkd.mongodb.net/Blog?retryWrites=true&w=majority")
+.then(() => app.listen(5000))
+.then(() =>
+  console.log("Connected TO Database and Listening TO Localhost 5000")
+)
+.catch((err) => console.log(err));
