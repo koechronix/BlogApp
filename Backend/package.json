@@ -1,26 +1,18 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "Blog Application",
-  "main": "app.js",
-  "type": "module",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/koechronix/BlogApp.git"
-  },
-  "author": "Amos",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/koechronix/BlogApp/issues"
-  },
-  "homepage": "https://github.com/koechronix/BlogApp#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mongoose": "^6.9.1",
+    "mongoose": "^6.9.2",
+    "multer": "^1.4.5-lts.1",
     "nodemon": "^2.0.20"
   }
 }
