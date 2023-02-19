@@ -1,0 +1,57 @@
+.nav{
+    width: 100%;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    background-color: #dbf6ed;
+    display: flex;
+    align-items: center;
+    font-family: 'Rowdies';
+    z-index: 999;
+}
+
+.navLeft,.navRight{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navIcons{
+    padding: 10px;
+    font-size: 25px!important;
+    cursor: pointer;
+}
+
+.navImg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.navCenter{
+    flex: 6;
+}
+
+.navList{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navListItem{
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.navSearchIcon{
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(42, 61, 30);
+    margin-left: 15px;
+}

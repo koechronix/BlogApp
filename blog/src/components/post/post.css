@@ -1,0 +1,59 @@
+.post {
+    width: 460px;
+    margin: 0px 25px 40px 25px;
+    text-align: center;
+  }
+  
+  .postImg {
+    width: 90%;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .postInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .postCat {
+    font-family: "Varela Round", sans-serif;
+    font-size: 11px;
+    color: rgb(231, 162, 59);
+    line-height: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .postTitle {
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .postDate {
+    font-family: "Lora", serif;
+    font-style: italic;
+    font-size: 13px;
+    color: #999;
+    margin-top: 15px;
+  }
+  
+  .postDesc {
+    font-family: "Varela Round", sans-serif;
+    font-size: 14px;
+    color: #444;
+    line-height: 24px;
+    margin-top: 15px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+  }
+  
